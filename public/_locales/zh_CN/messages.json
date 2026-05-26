@@ -1,0 +1,87 @@
+{
+  "actionTitle": { "message": "Edstem Archive" },
+  "allVisibleCourses": { "message": "全部可见课程" },
+  "appName": { "message": "Edstem Archive" },
+  "cancelSync": { "message": "取消同步" },
+  "checkingBody": { "message": "正在检查你现有的 EDstem 浏览器登录状态。" },
+  "checkingEyebrow": { "message": "检查中" },
+  "checkingStatus": { "message": "正在检查 EDstem 登录状态" },
+  "connectionEyebrow": { "message": "需要重试" },
+  "connectionLabel": { "message": "连接" },
+  "connectionStatus": { "message": "连接异常" },
+  "courseNotVisibleHint": { "message": "当前课程不在这个 EDstem 登录状态的可见课程中。" },
+  "coursesLabel": { "message": "课程" },
+  "currentCourse": { "message": "当前课程" },
+  "defaultDownloadHint": { "message": "Markdown 文件会保存到浏览器的下载文件夹。" },
+  "downloadActionsLabel": { "message": "下载操作" },
+  "downloadAllCourses": { "message": "下载全部课程" },
+  "downloadCurrentCourse": { "message": "下载当前课程" },
+  "downloadFailed": { "message": "下载失败。" },
+  "downloadResultLabel": { "message": "下载结果" },
+  "downloadedFiles": {
+    "message": "已下载 $count$ 个文件",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "emptyCoursesBody": { "message": "扩展没有在这个 EDstem 登录状态中找到课程。" },
+  "emptyCoursesEyebrow": { "message": "没有课程" },
+  "emptyCoursesLabel": { "message": "没有找到可见课程" },
+  "exportDiagnostics": { "message": "导出诊断" },
+  "exportFinishedWithErrors": { "message": "导出已结束，但包含错误。" },
+  "loginNeededBody": { "message": "打开 EDstem 并登录，然后重试。" },
+  "loginNeededEyebrow": { "message": "需要登录" },
+  "loginNeededStatus": { "message": "请先登录 EDstem" },
+  "manifestDescription": { "message": "将可访问的 EDstem 讨论下载为本地 Markdown。" },
+  "manifestName": { "message": "Edstem Archive" },
+  "notificationCompleteMessage": {
+    "message": "已下载 $succeeded$/$attempted$ 个文件。",
+    "placeholders": {
+      "succeeded": { "content": "$1" },
+      "attempted": { "content": "$2" }
+    }
+  },
+  "notificationCompleteTitle": { "message": "Edstem Archive 下载完成" },
+  "notificationIssueMessage": {
+    "message": "已下载 $succeeded$/$attempted$ 个文件。打开结果查看详情。",
+    "placeholders": {
+      "succeeded": { "content": "$1" },
+      "attempted": { "content": "$2" }
+    }
+  },
+  "notificationIssueTitle": { "message": "Edstem Archive 完成但有错误" },
+  "notCoursePageHint": { "message": "打开一个 EDstem 课程页面即可启用当前课程下载。" },
+  "notEdstemHint": { "message": "打开一个 EDstem 课程页面即可启用当前课程下载。" },
+  "notSignedInHint": { "message": "下载 Markdown 前请先登录 EDstem。" },
+  "onboardingLede": { "message": "使用你自己的浏览器登录状态，将可访问课程讨论下载为本地 Markdown。" },
+  "onboardingOpenEdstem": { "message": "打开 Edstem" },
+  "onboardingTitle": { "message": "归档你的 Edstem 讨论" },
+  "openDownloadsFolder": { "message": "打开下载文件夹" },
+  "openEdstem": { "message": "打开 Edstem" },
+  "pausedEyebrow": { "message": "已暂停" },
+  "privacyNote": { "message": "不会收集凭据或 cookies。" },
+  "readyEyebrow": { "message": "就绪" },
+  "retry": { "message": "重试" },
+  "sessionExpiredStatus": { "message": "登录已过期" },
+  "sessionLabel": { "message": "登录状态" },
+  "signedInStatus": { "message": "已登录 EDstem" },
+  "syncPaused": { "message": "同步已在最后保存的检查点暂停。请登录 EDstem，然后继续。" },
+  "syncPausedCheckpoint": {
+    "message": "同步已在最后保存的检查点暂停：$checkpoint$。请登录 EDstem，然后继续。",
+    "placeholders": { "checkpoint": { "content": "$1" } }
+  },
+  "syncPausedLabel": { "message": "同步已暂停" },
+  "syncProgressLabel": { "message": "同步进度" },
+  "threadsProgress": {
+    "message": "$completed$/$total$ 个讨论",
+    "placeholders": {
+      "completed": { "content": "$1" },
+      "total": { "content": "$2" }
+    }
+  },
+  "trustExistingSession": { "message": "使用你现有的 EDstem 登录状态" },
+  "trustLocalMarkdown": { "message": "Markdown 保存在本地" },
+  "trustNoCredentials": { "message": "不收集凭据或使用活动" },
+  "waitingRetryAt": {
+    "message": "将在 $time$ 重试。",
+    "placeholders": { "time": { "content": "$1" } }
+  }
+}

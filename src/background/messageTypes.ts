@@ -1,0 +1,13 @@
+export const GET_SESSION_SNAPSHOT = "edstemArchive.getSessionSnapshot";
+export const GET_CURRENT_COURSE = "edstemArchive.getCurrentCourse";
+export const OPEN_EDSTEM = "edstemArchive.openEdstem";
+export const GET_SIDEBAR_COURSES = "edstemArchive.getSidebarCourses";
+export const FETCH_EDSTEM_API = "edstemArchive.fetchEdstemApi";
+export const GET_SYNC_SNAPSHOT = "edstemArchive.getSyncSnapshot";
+export const START_COURSE_SYNC = "edstemArchive.startCourseSync";
+export const START_ALL_COURSES_SYNC = "edstemArchive.startAllCoursesSync";
+export const CANCEL_SYNC = "edstemArchive.cancelSync";
+export const GET_EXPORT_SNAPSHOT = "edstemArchive.getExportSnapshot";
+export const START_COURSE_EXPORT = "edstemArchive.startCourseExport";
+export const START_ALL_COURSES_EXPORT = "edstemArchive.startAllCoursesExport";
+export const OPEN_DOWNLOADS_FOLDER = "edstemArchive.openDownloadsFolder";

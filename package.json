@@ -1,0 +1,28 @@
+{
+    "name":  "edstem-archive-extension",
+    "version":  "0.4.0",
+    "private":  false,
+    "type":  "module",
+    "scripts":  {
+                    "build":  "wxt build --browser chrome",
+                    "build:edge":  "wxt build --browser edge",
+                    "test":  "vitest run",
+                    "test:e2e":  "playwright test",
+                    "test:e2e:headed":  "playwright test --headed",
+                    "policy:check":  "tsx scripts/policy-check.ts",
+                    "screenshots":  "tsx scripts/generate-screenshots.ts",
+                    "package:chrome":  "wxt zip --browser chrome \u0026\u0026 tsx scripts/package-check.ts --rename --target=chrome",
+                    "package:edge":  "wxt zip --browser edge \u0026\u0026 tsx scripts/package-check.ts --rename --target=edge",
+                    "package:check":  "tsx scripts/package-check.ts",
+                    "lint":  "wxt prepare \u0026\u0026 tsc --noEmit \u0026\u0026 npm run policy:check",
+                    "verify":  "npm run build \u0026\u0026 npm test \u0026\u0026 npm run policy:check"
+                },
+    "devDependencies":  {
+                            "@playwright/test":  "^1.60.0",
+                            "@types/chrome":  "^0.1.0",
+                            "tsx":  "^4.21.0",
+                            "typescript":  "^5.9.3",
+                            "vitest":  "^4.0.13",
+                            "wxt":  "^0.20.8"
+                        }
+}

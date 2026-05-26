@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# WXT / extension build output
+.wxt/
+.output/
+dist/
+*.zip
+
+# Test output
+coverage/
+test-results/
+playwright-report/
+tests/e2e/.output/
+tests/e2e/downloads/
+tests/e2e/user-data/
+
+# Local secrets and data
+.env
+.env.*
+*.sqlite
+*.db
+local.json
+sessions/
+data/
+exports/
+logs/

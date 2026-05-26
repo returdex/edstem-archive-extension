@@ -1,0 +1,87 @@
+{
+  "actionTitle": { "message": "Edstem Archive" },
+  "allVisibleCourses": { "message": "All visible courses" },
+  "appName": { "message": "Edstem Archive" },
+  "cancelSync": { "message": "Cancel sync" },
+  "checkingBody": { "message": "Checking your existing EDstem browser session." },
+  "checkingEyebrow": { "message": "Checking" },
+  "checkingStatus": { "message": "Checking EDstem session" },
+  "connectionEyebrow": { "message": "Retry needed" },
+  "connectionLabel": { "message": "Connection" },
+  "connectionStatus": { "message": "Connection problem" },
+  "courseNotVisibleHint": { "message": "The active course is not visible in this EDstem session." },
+  "coursesLabel": { "message": "Courses" },
+  "currentCourse": { "message": "Current course" },
+  "defaultDownloadHint": { "message": "Markdown files are saved to your browser Downloads folder." },
+  "downloadActionsLabel": { "message": "Download actions" },
+  "downloadAllCourses": { "message": "Download all courses" },
+  "downloadCurrentCourse": { "message": "Download current course" },
+  "downloadFailed": { "message": "Download failed." },
+  "downloadResultLabel": { "message": "Download result" },
+  "downloadedFiles": {
+    "message": "downloaded $count$ files",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "emptyCoursesBody": { "message": "The extension could not find courses for this EDstem session." },
+  "emptyCoursesEyebrow": { "message": "No courses" },
+  "emptyCoursesLabel": { "message": "No visible courses found" },
+  "exportDiagnostics": { "message": "Export diagnostics" },
+  "exportFinishedWithErrors": { "message": "Export finished with errors." },
+  "loginNeededBody": { "message": "Open EDstem, sign in, then try again." },
+  "loginNeededEyebrow": { "message": "Login needed" },
+  "loginNeededStatus": { "message": "Please log in to EDstem" },
+  "manifestDescription": { "message": "Download accessible EDstem discussions as local Markdown." },
+  "manifestName": { "message": "Edstem Archive" },
+  "notificationCompleteMessage": {
+    "message": "Downloaded $succeeded$/$attempted$ files.",
+    "placeholders": {
+      "succeeded": { "content": "$1" },
+      "attempted": { "content": "$2" }
+    }
+  },
+  "notificationCompleteTitle": { "message": "Edstem Archive download complete" },
+  "notificationIssueMessage": {
+    "message": "Downloaded $succeeded$/$attempted$ files. Open the result for details.",
+    "placeholders": {
+      "succeeded": { "content": "$1" },
+      "attempted": { "content": "$2" }
+    }
+  },
+  "notificationIssueTitle": { "message": "Edstem Archive finished with errors" },
+  "notCoursePageHint": { "message": "Open an Edstem course tab to enable current-course download." },
+  "notEdstemHint": { "message": "Open an Edstem course tab to enable current-course download." },
+  "notSignedInHint": { "message": "Log in to Edstem before downloading Markdown." },
+  "onboardingLede": { "message": "Download accessible course discussions as local Markdown from your own browser session." },
+  "onboardingOpenEdstem": { "message": "Open Edstem" },
+  "onboardingTitle": { "message": "Archive your Edstem discussions" },
+  "openDownloadsFolder": { "message": "Open downloads folder" },
+  "openEdstem": { "message": "Open Edstem" },
+  "pausedEyebrow": { "message": "Paused" },
+  "privacyNote": { "message": "No credentials or cookies are collected." },
+  "readyEyebrow": { "message": "Ready" },
+  "retry": { "message": "Retry" },
+  "sessionExpiredStatus": { "message": "Session expired" },
+  "sessionLabel": { "message": "Session" },
+  "signedInStatus": { "message": "Logged in to EDstem" },
+  "syncPaused": { "message": "Sync is paused at the last saved checkpoint. Log in to EDstem, then resume." },
+  "syncPausedCheckpoint": {
+    "message": "Sync is paused at the last saved checkpoint: $checkpoint$. Log in to EDstem, then resume.",
+    "placeholders": { "checkpoint": { "content": "$1" } }
+  },
+  "syncPausedLabel": { "message": "Sync paused" },
+  "syncProgressLabel": { "message": "Sync progress" },
+  "threadsProgress": {
+    "message": "$completed$/$total$ threads",
+    "placeholders": {
+      "completed": { "content": "$1" },
+      "total": { "content": "$2" }
+    }
+  },
+  "trustExistingSession": { "message": "Uses your existing EDstem session" },
+  "trustLocalMarkdown": { "message": "Saves Markdown locally" },
+  "trustNoCredentials": { "message": "No credential or activity collection" },
+  "waitingRetryAt": {
+    "message": "Waiting to retry at $time$.",
+    "placeholders": { "time": { "content": "$1" } }
+  }
+}

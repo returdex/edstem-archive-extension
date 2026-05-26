@@ -1,0 +1,189 @@
+:root {
+  color: #18212f;
+  background: #f6f8fb;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  min-height: 40px;
+  border: 0;
+  border-radius: 6px;
+  background: #2364aa;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 650;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
+.popup-body {
+  width: 380px;
+  min-height: 420px;
+  background: #f6f8fb;
+}
+
+.popup-shell {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+}
+
+.popup-header {
+  display: grid;
+  gap: 10px;
+}
+
+.popup-header h1,
+.onboarding-shell h1 {
+  margin: 0;
+  color: #14213d;
+  font-size: 24px;
+  line-height: 1.15;
+}
+
+.eyebrow,
+.label {
+  margin: 0;
+  color: #5a6a7f;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.status-pill {
+  width: fit-content;
+  border: 1px solid #9cc5a1;
+  border-radius: 999px;
+  padding: 5px 9px;
+  background: #eef8ef;
+  color: #245338;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.status-pill.neutral {
+  border-color: #d1d5db;
+  background: #ffffff;
+  color: #374151;
+}
+
+.status-pill.success {
+  border-color: #9cc5a1;
+  background: #eef8ef;
+  color: #245338;
+}
+
+.status-pill.warning {
+  border-color: #f3c56b;
+  background: #fff8e5;
+  color: #7c4a03;
+}
+
+.status-pill.error {
+  border-color: #fecaca;
+  background: #fff1f2;
+  color: #991b1b;
+}
+
+.action-group {
+  display: grid;
+  gap: 8px;
+}
+
+.progress-panel {
+  display: grid;
+  gap: 12px;
+  border: 1px solid #d8e0eb;
+  border-radius: 8px;
+  padding: 14px;
+  background: #ffffff;
+}
+
+.progress-panel p,
+.privacy-note,
+.lede,
+.button-note {
+  margin: 0;
+  color: #3c4a5f;
+  line-height: 1.5;
+}
+
+.button-note {
+  font-size: 12px;
+}
+
+.course-list {
+  display: grid;
+  gap: 8px;
+  max-height: 180px;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+}
+
+.course-list li {
+  display: grid;
+  gap: 4px;
+  border: 1px solid #d8e0eb;
+  border-radius: 6px;
+  padding: 10px;
+  background: #f8fafc;
+}
+
+.course-list span {
+  overflow-wrap: anywhere;
+  font-weight: 700;
+}
+
+.course-list small {
+  color: #5a6a7f;
+  font-size: 12px;
+}
+
+.inline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.inline-actions button {
+  min-height: 34px;
+  padding: 0 12px;
+}
+
+.onboarding-body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f6f8fb;
+}
+
+.onboarding-shell {
+  display: grid;
+  gap: 18px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 24px;
+}
+
+.trust-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 20px;
+  color: #27384f;
+  line-height: 1.5;
+}
